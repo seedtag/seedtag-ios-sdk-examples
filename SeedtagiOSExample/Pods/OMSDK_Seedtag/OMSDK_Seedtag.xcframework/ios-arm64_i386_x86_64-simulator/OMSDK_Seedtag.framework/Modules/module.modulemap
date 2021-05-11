@@ -1,0 +1,4 @@
+module OMSDK_Seedtag {
+    header "Headers/OMIDImports.h"
+    export *
+}

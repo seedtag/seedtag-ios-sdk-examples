@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-SeedtagiOSExample-SeedtagiOSExampleUITests/Pods-SeedtagiOSExample-SeedtagiOSExampleUITests-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/OMSDK_Seedtag/OMSDK_Seedtag.framework/OMSDK_Seedtag
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SeedtagFramework/SeedtagFramework.framework/SeedtagFramework

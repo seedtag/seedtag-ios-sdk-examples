@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SeedtagiOSExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Br3-Px-9O7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kmR-cf-0XR" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="-13" width="406" height="2000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SEEDTAG iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bt5-c9-hXq">
+                                                <rect key="frame" x="109" y="74" width="188" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="188" id="O3q-tz-9AH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor ..." lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnp-l5-Muz">
+                                                <rect key="frame" x="49" y="396" width="314" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glenn-carstens-peters-0woyPEJQ7jc-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="SZR-rM-UL3">
+                                                <rect key="frame" x="46" y="443" width="314" height="174"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="174" id="Jpz-4B-hEf"/>
+                                                    <constraint firstAttribute="width" constant="314" id="phL-Qi-7j7"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fci-CF-gws">
+                                                <rect key="frame" x="49" y="644" width="314" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="christina-wocintechchat-com-L85a1k-XqH8-unsplash (1)" translatesAutoresizingMaskIntoConstraints="NO" id="FTR-eO-pPD">
+                                                <rect key="frame" x="0.0" y="106" width="422" height="282"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="282" id="ii6-Wr-yav"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="SZR-rM-UL3" firstAttribute="centerX" secondItem="kmR-cf-0XR" secondAttribute="centerX" id="05f-SN-d4a"/>
+                                            <constraint firstItem="Bt5-c9-hXq" firstAttribute="centerX" secondItem="kmR-cf-0XR" secondAttribute="centerX" id="3b4-lP-YXK"/>
+                                            <constraint firstItem="gnp-l5-Muz" firstAttribute="top" secondItem="FTR-eO-pPD" secondAttribute="bottom" constant="8" id="69N-tm-h4q"/>
+                                            <constraint firstItem="gnp-l5-Muz" firstAttribute="leading" secondItem="kmR-cf-0XR" secondAttribute="leading" constant="49" id="6ap-cd-Opg"/>
+                                            <constraint firstItem="Fci-CF-gws" firstAttribute="leading" secondItem="kmR-cf-0XR" secondAttribute="leading" constant="49" id="BZS-ef-UZt"/>
+                                            <constraint firstItem="FTR-eO-pPD" firstAttribute="top" secondItem="Bt5-c9-hXq" secondAttribute="bottom" constant="11" id="GP4-6I-3G2"/>
+                                            <constraint firstItem="SZR-rM-UL3" firstAttribute="top" secondItem="gnp-l5-Muz" secondAttribute="bottom" constant="26.5" id="UYi-94-dQs"/>
+                                            <constraint firstAttribute="height" constant="2000" id="bCq-qv-sDx"/>
+                                            <constraint firstAttribute="trailing" secondItem="Fci-CF-gws" secondAttribute="trailing" constant="43" id="dGh-CB-Qf7"/>
+                                            <constraint firstAttribute="trailing" secondItem="FTR-eO-pPD" secondAttribute="trailing" constant="-16" id="iBt-xg-Ih8"/>
+                                            <constraint firstAttribute="trailing" secondItem="gnp-l5-Muz" secondAttribute="trailing" constant="43" id="icu-fi-Q9q"/>
+                                            <constraint firstItem="Fci-CF-gws" firstAttribute="top" secondItem="SZR-rM-UL3" secondAttribute="bottom" constant="27" id="lOf-1Y-a50"/>
+                                            <constraint firstItem="Bt5-c9-hXq" firstAttribute="top" secondItem="kmR-cf-0XR" secondAttribute="top" constant="74" id="o9I-sD-6GM"/>
+                                            <constraint firstItem="FTR-eO-pPD" firstAttribute="leading" secondItem="kmR-cf-0XR" secondAttribute="leading" id="wdT-jg-X2P"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kmR-cf-0XR" firstAttribute="leading" secondItem="Br3-Px-9O7" secondAttribute="leading" id="1AD-iq-Vy0"/>
+                                    <constraint firstAttribute="trailing" secondItem="kmR-cf-0XR" secondAttribute="trailing" constant="8" id="APa-O8-eOo"/>
+                                    <constraint firstAttribute="trailing" secondItem="kmR-cf-0XR" secondAttribute="trailing" constant="8" id="T02-Gh-yP1"/>
+                                    <constraint firstItem="rMz-dp-o9G" firstAttribute="trailing" secondItem="kmR-cf-0XR" secondAttribute="trailing" constant="8" id="VUW-NL-oTm"/>
+                                    <constraint firstAttribute="bottom" secondItem="kmR-cf-0XR" secondAttribute="bottom" id="ZUI-1F-ycD"/>
+                                    <constraint firstAttribute="trailing" secondItem="kmR-cf-0XR" secondAttribute="trailing" constant="8" id="efk-5d-i4L"/>
+                                    <constraint firstItem="kmR-cf-0XR" firstAttribute="top" secondItem="Br3-Px-9O7" secondAttribute="top" constant="-13" id="xBV-we-OFR"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="EiE-FE-iId"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="rMz-dp-o9G"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Br3-Px-9O7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0JA-Lu-rMS"/>
+                            <constraint firstItem="Br3-Px-9O7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WyP-O5-VKl"/>
+                            <constraint firstAttribute="bottom" secondItem="Br3-Px-9O7" secondAttribute="bottom" id="nx4-2T-jFW"/>
+                            <constraint firstAttribute="trailing" secondItem="Br3-Px-9O7" secondAttribute="trailing" id="s8d-SO-0ox"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="iv1" destination="FTR-eO-pPD" id="tn3-fK-5Yd"/>
+                        <outlet property="iv2" destination="SZR-rM-UL3" id="mUi-wq-Wvf"/>
+                        <outlet property="lbl_text1" destination="gnp-l5-Muz" id="TUO-jL-IpT"/>
+                        <outlet property="lbl_text2" destination="Fci-CF-gws" id="Uj7-tS-fvg"/>
+                        <outlet property="mainTitle_lbl" destination="Bt5-c9-hXq" id="aUa-Ea-uOj"/>
+                        <outlet property="view_superview" destination="8bC-Xf-vdC" id="IBa-nH-XOV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="christina-wocintechchat-com-L85a1k-XqH8-unsplash (1)" width="1920" height="1282"/>
+        <image name="glenn-carstens-peters-0woyPEJQ7jc-unsplash" width="4256" height="2832"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

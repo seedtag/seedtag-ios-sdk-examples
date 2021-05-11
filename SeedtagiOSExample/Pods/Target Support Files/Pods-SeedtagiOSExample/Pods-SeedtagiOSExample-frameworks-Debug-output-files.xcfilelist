@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMSDK_Seedtag.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SeedtagFramework.framework

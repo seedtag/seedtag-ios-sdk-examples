@@ -1,0 +1,30 @@
+PODS:
+  - OMSDK_Seedtag (1.0.1)
+  - SeedtagFramework (1.0.0):
+    - OMSDK_Seedtag (= 1.0.1)
+
+DEPENDENCIES:
+  - OMSDK_Seedtag (from `https://github.com/seedtag/omid-podspec.git`)
+  - SeedtagFramework (from `https://github.com/seedtag/seedtag-ios-sdk-examples.git`)
+
+EXTERNAL SOURCES:
+  OMSDK_Seedtag:
+    :git: https://github.com/seedtag/omid-podspec.git
+  SeedtagFramework:
+    :git: https://github.com/seedtag/seedtag-ios-sdk-examples.git
+
+CHECKOUT OPTIONS:
+  OMSDK_Seedtag:
+    :commit: 5bf5b503fe32c6bfcccc906523e72aaab7dd0203
+    :git: https://github.com/seedtag/omid-podspec.git
+  SeedtagFramework:
+    :commit: 49697ea3cff2573d163045ca8ef3d06ba7000445
+    :git: https://github.com/seedtag/seedtag-ios-sdk-examples.git
+
+SPEC CHECKSUMS:
+  OMSDK_Seedtag: df33f1b097567ea09b0f5dfc0f9b26d8a8613c57
+  SeedtagFramework: 652a20d16070c4a873458be85265d839a17941bc
+
+PODFILE CHECKSUM: 4c5c565bbf610b43c5536ee2fe54042975a0152c
+
+COCOAPODS: 1.10.1

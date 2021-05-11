@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SeedtagiOSExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SeedtagiOSExample
+  pod 'OMSDK_Seedtag', :git => 'https://github.com/seedtag/omid-podspec.git'
+  pod 'SeedtagFramework', :git => 'https://github.com/seedtag/seedtag-ios-sdk-examples.git'
+
+  target 'SeedtagiOSExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SeedtagiOSExampleUITests' do
+    # Pods for testing
+  end
+
+end
