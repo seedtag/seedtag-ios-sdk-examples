@@ -1,0 +1,64 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SeedtagFramework
+import AdSupport
+import Foundation
+import OMSDK_Seedtag
+@_exported import SeedtagFramework
+import Swift
+import UIKit
+import WebKit
+public enum GVSpace {
+  case top
+  case bottom
+  case leading
+  case trailing
+  public static func == (a: SeedtagFramework.GVSpace, b: SeedtagFramework.GVSpace) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public enum GVAxis {
+  case vertical
+  case horizontal
+  public static func == (a: SeedtagFramework.GVAxis, b: SeedtagFramework.GVAxis) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+extension UIView {
+  public var isGone: Swift.Bool {
+    get
+  }
+}
+extension UIView {
+  public func gone(axis: SeedtagFramework.GVAxis? = nil, spaces: [SeedtagFramework.GVSpace]? = nil, completion: (() -> ())? = nil)
+  public func visible(completion: (() -> ())? = nil)
+}
+@_hasMissingDesignatedInitializers public class SeedtagPageView {
+  public func addAdunit(adUnit: UIKit.UIView) -> SeedtagFramework.SeedtagPageView
+  public func addInScreenAd(parentView: UIKit.UIView) -> SeedtagFramework.SeedtagPageView
+  public func addInArticleAdunit(inArticleAdunit: UIKit.UIView) -> SeedtagFramework.SeedtagPageView
+  public func requestAds()
+  public func registerReferenceUrl(referenceUrl: Swift.String) -> SeedtagFramework.SeedtagPageView
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class SeedtagAdsManager {
+  public static func getInstance() -> SeedtagFramework.SeedtagAdsManager
+  public func initSeedtagAds(advertisingId: Swift.String, isLimitAdTracking: Swift.Bool, iabConsentString: Swift.String, seedtagToken: Swift.String)
+  public func createSeedtagPageView() -> SeedtagFramework.SeedtagPageView
+  public func clearSeedtagAds()
+  public func disableTestMode()
+  public func enableTestMode()
+  public func setTestBid(testBid: Swift.String)
+  public func enableTestWebViewBorders()
+  public func disableTestWebViewBorders()
+  public func isWebviewBorderEnabled() -> Swift.Bool
+  @objc deinit
+}
+extension SeedtagFramework.GVSpace : Swift.Equatable {}
+extension SeedtagFramework.GVSpace : Swift.Hashable {}
+extension SeedtagFramework.GVAxis : Swift.Equatable {}
+extension SeedtagFramework.GVAxis : Swift.Hashable {}
