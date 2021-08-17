@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "SeedtagFramework"
-    s.version      = "1.2.0"
+    s.version      = "1.3.0"
     s.summary      = "Seedtag SDK for iOS."
     s.description  = <<-DESC
     Seedtag native SDK for iOS apps.

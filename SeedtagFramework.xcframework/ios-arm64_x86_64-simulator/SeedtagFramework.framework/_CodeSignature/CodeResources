@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RUGEJtiJsvc3Y5BqVCsRKf0qnOM=
+		NytbTlbb/u1sQc5QQl1lSaBw3As=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		A3glJVfciGlM44OKU1YNr09oTP0=
+		ZsbR+FmIzWuo5+dYzIHVjMkhKzg=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		avhpG8GHA8hZa8klqDMuawfk5Xw=
+		WLV08IGhDw+Sz2QUDSHqv0wYJxg=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		A3glJVfciGlM44OKU1YNr09oTP0=
+		ZsbR+FmIzWuo5+dYzIHVjMkhKzg=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		avhpG8GHA8hZa8klqDMuawfk5Xw=
+		WLV08IGhDw+Sz2QUDSHqv0wYJxg=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oBoSQmSY1VCIrhxvLyUBKmgb8Kc=
+		lNpYSxnttrrwgfuq17nQ06ZzTY8=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2Wkhp59/YfMuuNRNP7aJqAeFySE=
+		DQpFr9M7DBrH8ZhjcEv23P+jB5k=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		oBoSQmSY1VCIrhxvLyUBKmgb8Kc=
+		lNpYSxnttrrwgfuq17nQ06ZzTY8=
 		</data>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		2Wkhp59/YfMuuNRNP7aJqAeFySE=
+		DQpFr9M7DBrH8ZhjcEv23P+jB5k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rsesq6BRUc0SmKzbadlOETc0Tg1vgVvxndEayu/3Pvw=
+			jz4lGBFtxWT7DXu4s9KBBoocph6pnKBrSB6PxaPXv/M=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DWhkqKnWeB1AK64Sxnfdt45IO1AVYXX2+uJ7L0rd4XU=
+			OtyPVc0n/Mp3ribaRzd/VMDKx0D0rwXrUmNyLRzbBac=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64.swiftdoc</key>
@@ -117,14 +117,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rsesq6BRUc0SmKzbadlOETc0Tg1vgVvxndEayu/3Pvw=
+			jz4lGBFtxWT7DXu4s9KBBoocph6pnKBrSB6PxaPXv/M=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DWhkqKnWeB1AK64Sxnfdt45IO1AVYXX2+uJ7L0rd4XU=
+			OtyPVc0n/Mp3ribaRzd/VMDKx0D0rwXrUmNyLRzbBac=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -138,14 +138,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5YlFbQPrUBXEIiZmlEMUfuhf3lTbN2y5xqZTwrp2AVA=
+			ujvfbx4RnE3EZA120YxJenSwpEhzJk2EMMT5n2ZU9Vc=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kYc/G8KEDXfrgCxU4i6fjcwbZQ99n/ZFiEnJ4FPRFYY=
+			43lhjBBWac+pjn8tQYrABmcvQsnL+swTJTjCWR6YdeM=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5YlFbQPrUBXEIiZmlEMUfuhf3lTbN2y5xqZTwrp2AVA=
+			ujvfbx4RnE3EZA120YxJenSwpEhzJk2EMMT5n2ZU9Vc=
 			</data>
 		</dict>
 		<key>Modules/SeedtagFramework.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kYc/G8KEDXfrgCxU4i6fjcwbZQ99n/ZFiEnJ4FPRFYY=
+			43lhjBBWac+pjn8tQYrABmcvQsnL+swTJTjCWR6YdeM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

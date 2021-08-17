@@ -37,19 +37,26 @@ extension UIView {
   public func gone(axis: SeedtagFramework.GVAxis? = nil, spaces: [SeedtagFramework.GVSpace]? = nil, completion: (() -> ())? = nil)
   public func visible(completion: (() -> ())? = nil)
 }
+public class SeedtagContext {
+  public init(advertisingId: Swift.String, isLimitAdTracking: Swift.Bool, iabConsentString: Swift.String?, seedtagToken: Swift.String)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers public class SeedtagPageView {
   public func addAdunit(adUnit: UIKit.UIView) -> SeedtagFramework.SeedtagPageView
-  public func addInScreenAd(parentView: UIKit.UIView) -> SeedtagFramework.SeedtagPageView
+  public func addInScreenAd(parentView: UIKit.UIView, enableRefresh: Swift.Bool, inScreenSize: SeedtagFramework.InScreenSize) -> SeedtagFramework.SeedtagPageView
+  public func addInScreenAd(parentView: UIKit.UIView, enableRefresh: Swift.Bool) -> SeedtagFramework.SeedtagPageView
   public func addInArticleAdunit(inArticleAdunit: UIKit.UIView) -> SeedtagFramework.SeedtagPageView
   public func requestAds()
   public func registerReferenceUrl(referenceUrl: Swift.String) -> SeedtagFramework.SeedtagPageView
+  public func setSeedtagContext(seedtagContext: SeedtagFramework.SeedtagContext) -> SeedtagFramework.SeedtagPageView
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class SeedtagAdsManager {
   public static func getInstance() -> SeedtagFramework.SeedtagAdsManager
-  public func initSeedtagAds(advertisingId: Swift.String, isLimitAdTracking: Swift.Bool, iabConsentString: Swift.String, seedtagToken: Swift.String)
+  public func initSeedtagAds()
   public func createSeedtagPageView() -> SeedtagFramework.SeedtagPageView
   public func clearSeedtagAds()
+  public func seedtagAdsCleared() -> Swift.Bool
   public func disableTestMode()
   public func enableTestMode()
   public func setTestBid(testBid: Swift.String)
@@ -58,7 +65,18 @@ extension UIView {
   public func isWebviewBorderEnabled() -> Swift.Bool
   @objc deinit
 }
+public enum InScreenSize {
+  case STANDARD
+  case SMALL
+  public static func == (a: SeedtagFramework.InScreenSize, b: SeedtagFramework.InScreenSize) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
 extension SeedtagFramework.GVSpace : Swift.Equatable {}
 extension SeedtagFramework.GVSpace : Swift.Hashable {}
 extension SeedtagFramework.GVAxis : Swift.Equatable {}
 extension SeedtagFramework.GVAxis : Swift.Hashable {}
+extension SeedtagFramework.InScreenSize : Swift.Equatable {}
+extension SeedtagFramework.InScreenSize : Swift.Hashable {}
